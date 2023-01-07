@@ -24,3 +24,20 @@ sqrt(X):-
  write('The Answer is: '),
  print(Q).
 
+sine(X):-
+ Y is X*(pi/180),
+ A is sin(Y),
+ write('The Answer is: '),
+ print(A).
+
+cosine(X):-
+ Y is X*(pi/180),
+ A is cos(Y),
+ write('The Answer is: '),
+ print(A).
+
+tangent(X):-
+ Y is X*(pi/180),
+ A is tan(Y),
+ write('The Answer is: '),
+ print(A).
