@@ -41,3 +41,18 @@ tangent(X):-
  A is tan(Y),
  write('The Answer is: '),
  print(A).
+
+log(N):-
+ W is log10(N),
+ write('The Answer is: '),
+ print(W).
+
+nlog(E):-
+ W is log10(E)/log10(e),
+ write('The Answer is: '),
+ print(W).
+
+pow(M,N):-
+ W is M**N,
+ write('The Answer is: '),
+ print(W).
