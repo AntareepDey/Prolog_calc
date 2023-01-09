@@ -56,3 +56,9 @@ pow(M,N):-
  W is M**N,
  write('The Answer is: '),
  print(W).
+ 
+ perct(U):-
+ P is U/100,
+ write('The Answer is: '),
+ print(P).
+
