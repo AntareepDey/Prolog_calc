@@ -1,3 +1,17 @@
+menu():-
+ write('MENU :'),nl,
+ write('1. For addding nos X & Y call sum(X,Y)'),nl,
+ write('2. For subtracting Y from X call sub(X,Y)'),nl,
+ write('3. For multiplying Nos X&Y call mul(X,Y)'),nl,
+ write('4. For dividing Y by X call div(X,Y)'),nl,
+ write('5. For finding sine of X(degree) call sine(X)'),nl,
+ write('6. For finding cosine of X(degree) call cosine(X)'),nl,
+ write('7. For finding tan of X(degree) call tangent(X)'),nl,
+ write('8. For finding log of X base 10 log(X)'),nl,
+ write('9. For finding log of X base e call nlog(X)'),nl,
+ write('10. For finding X raised to the power Y call pow(X,Y)'),nl,
+ write('11. For finding Square root of X call sqrt(X)'),nl,
+ write('12. For finding percentage X of 100 call perct(X)').
 
 sum(X,Y):-
  SUM is X+Y,
